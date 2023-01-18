@@ -7,4 +7,10 @@ body {
   background-color: #292929;
   color: #fff;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  
+}
+
+.container {
+  background-color: #404040;
+  margin: 1rem;
 }

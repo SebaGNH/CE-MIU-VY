@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {Fragment} from 'react'
+import { M01_Typography, M02_Button } from './components'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='container'>
+      {/* <M01_Typography/> */}
+      <M02_Button/>
+
+    </div>
   )
 }
 
