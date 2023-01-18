@@ -4,13 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #292929;
+  background-color: #404040;
   color: #fff;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  
-}
-
-.container {
-  background-color: #404040;
-  margin: 1rem;
+  margin: 1rem;  
 }
