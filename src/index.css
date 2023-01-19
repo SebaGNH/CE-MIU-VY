@@ -5,7 +5,9 @@
 }
 body {
   background-color: #b9b9b9;
+  /* background-color: #404040; */
   color: #fff;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   margin: 1rem;  
 }
+
