@@ -5,9 +5,18 @@ import {FormatBold as FormatBoldIcon, FormatItalic as FormatItalicIcon, FormatUn
 
 export const M04_ToggleButton = () => {
   const [formatos, setFormatos] = useState([])
+  const [formatosExclusivo, setFormatosExclusivo] = useState(null)
+
+
+
   console.log(formatos)
   const handleFormatChange = (e, nuevoFormato) => {
     setFormatos(nuevoFormato)
+  }
+
+  console.log(formatosExclusivo)
+  const handleFormatChangeExclusivo = (e, nuevoFormato) => {
+    setFormatosExclusivo(nuevoFormato)
   }
 
 
@@ -17,16 +26,40 @@ export const M04_ToggleButton = () => {
         <ToggleButtonGroup 
           aria-label='text Formatting' 
           value={formatos}
+          color='warning'
           onChange={handleFormatChange}
         >
           <ToggleButton value="bold" aria-label='bold'>
-            <FormatBoldIcon color='warning'/>
+            <FormatBoldIcon/>
           </ToggleButton>
           <ToggleButton value="italic" aria-label='italic'>
-            <FormatItalicIcon color='warning'/>
+            <FormatItalicIcon/>
           </ToggleButton>
           <ToggleButton value="underline" aria-label='underline'>
-            <FormatUnderlinedIcon color='warning'/>
+            <FormatUnderlinedIcon/>
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </Stack> 
+
+
+      {/* Exclusive */}     
+      <Stack direction="row">
+        <ToggleButtonGroup 
+          aria-label='text Formatting' 
+          value={formatosExclusivo}
+          color='warning'
+          orientation='vertical'
+          onChange={handleFormatChangeExclusivo}
+          exclusive
+        >
+          <ToggleButton value="bold" aria-label='bold'>
+            <FormatBoldIcon/>
+          </ToggleButton>
+          <ToggleButton value="italic" aria-label='italic'>
+            <FormatItalicIcon/>
+          </ToggleButton>
+          <ToggleButton value="underline" aria-label='underline'>
+            <FormatUnderlinedIcon/>
           </ToggleButton>
         </ToggleButtonGroup>
       </Stack>      
