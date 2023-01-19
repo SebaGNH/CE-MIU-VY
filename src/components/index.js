@@ -5,5 +5,6 @@ export * from './M04_ToggleButton'
 export * from './M05_TextFields'
 export * from './M06_Select'
 export * from './M07_RadioBtn'
+export * from './M08_CheckBox'
 
 export * from './M14_Box'
