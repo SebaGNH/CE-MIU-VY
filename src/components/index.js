@@ -7,5 +7,6 @@ export * from './M06_Select'
 export * from './M07_RadioBtn'
 export * from './M08_CheckBox'
 export * from './M09_Switch'
+export * from './M10_Rating'
 
 export * from './M14_Box'
