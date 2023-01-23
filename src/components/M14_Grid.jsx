@@ -1,44 +1,9 @@
-import { Box, Divider, Stack, Grid } from '@mui/material'
+import { Box, Grid } from '@mui/material'
 import React, { Fragment} from 'react'
 
 export const M14_Grid = () => {
   return (
   <Fragment>
-    <Stack 
-      sx={{border: '1px solid'}} 
-      direction='row' 
-      spacing={2} 
-      divider={<Divider orientation='vertical' flexItem/>}
-    >
-      <Box sx={{
-        backgroundColor:'primary.main',
-        color: 'white',
-        height: '100px',
-        width: '100px',
-        padding: '16px',
-        '&:hover':{
-          backgroundColor: 'primary.light'
-        }
-
-      }}>
-        Primary Color
-      </Box>
-      <Box sx={{
-        backgroundColor:'secondary.main',
-        color: 'white',
-        height: '100px',
-        width: '100px',
-        padding: '16px',
-        '&:hover':{
-          backgroundColor: 'primary.light'
-        }
-
-      }}>
-        Secondary Color
-      </Box>    
-    </Stack>
-
-
     {/* xs={6}. cada elemento ocupa 6 espacio de 12 */}
     {/* auto abarca el tamaño de las letras */}
     {/* columnSpacing = gap */}
