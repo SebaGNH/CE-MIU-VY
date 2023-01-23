@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 import { Box } from '@mui/material'
-export const M14_Box = () => {
+export const M12_Box = () => {
   return (
     <Fragment>
       {/* Box */}
