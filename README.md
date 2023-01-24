@@ -15,11 +15,18 @@ yarn add @mui/material @emotion/react @emotion/styled
 yarn add @mui/icons-material
 
 
-ya vi el 14 box
+
 
 
 Verificar video 10 = checkbox
 
+
+  const [expanded, setExpanded] = useState <string | false> (false);
+
+   const onChange = (isExpanded: boolean, panel: string) => {
+    setExpanded(isExpanded? panel : false)
+  }
+  h
 -->
 
 
