@@ -26,7 +26,15 @@ Verificar video 10 = checkbox
    const onChange = (isExpanded: boolean, panel: string) => {
     setExpanded(isExpanded? panel : false)
   }
-  h
+  
+
+
+  edge='start' color='inherit' = inherit = heredado
+
+
+
+
+
 -->
 
 
