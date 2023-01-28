@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { AppBar, Toolbar, IconButton, Typography, Stack, Button, Menu, MenuItem } from '@mui/material'
-import { CatchingPokemon as CatchingPokemonIcon } from '@mui/icons-material';
-
+import { CatchingPokemon as CatchingPokemonIcon, KeyboardArrowDown as KeyboardArrowDownIcon } from '@mui/icons-material';
 
 export const M20_Menu = () => {
   const [elementoAncla, setElementoAncla] = useState(null)
@@ -40,19 +39,35 @@ export const M20_Menu = () => {
             aria-control={ open ? 'resources-menu': undefined}
             aria-haspopup='true'
             aria-expanded={ open ? 'true' : undefined}
-            MenuListProps={{
-              'aria-labelledby' : 'resources-button'
-            }}
-            onClose={handleClose}
+            endIcon={<KeyboardArrowDownIcon/>}
           >Resources</Button>
           <Button color='inherit'>Login</Button>
         </Stack>
 
-        <Menu id='resources-menu'>
-          <MenuItem anchorEl={elementoAncla} open={open}>Blog</MenuItem>
-          <MenuItem>Podcast</MenuItem>
+        <Menu 
+          id='resources-menu'
+          anchorEl={elementoAncla} 
+          open={open}
+          MenuListProps={{
+            'aria-labelledby' : 'resources-button'
+          }}
+          onClose={handleClose}
+          anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right'
+            }}
+            transformOrign={{
+              vertical:'top',
+              horizontal: 'right'
+            }}
+        >
+          <MenuItem onClick={handleClose}>Blog</MenuItem>
+          <MenuItem onClick={handleClose}>Podcast</MenuItem>
         </Menu>
       </Toolbar>
     </AppBar>
   )
 }
+
+
+//Verificar donde está el botón
