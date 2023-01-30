@@ -33,7 +33,17 @@ Verificar video 10 = checkbox
 
 
 
+M20_Menu no muestra bien, acá el video
+//https://www.youtube.com/watch?v=vYL2wfmF3OQ&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&index=25
 
+
+
+Stack viene a ser como un div
+
+
+<Stack spacing={2} direction='row' m={4}>
+
+href es igual a hash ya que lo que hacemos realmente no tiene que navegar en otro lugar, se puede agregar cualquier enlace externo y funcionará bien
 
 -->
 
