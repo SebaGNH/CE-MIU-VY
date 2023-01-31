@@ -43,6 +43,10 @@ Stack viene a ser como un div
 
 <Stack spacing={2} direction='row' m={4}>
 
+
+
+box también se usa como div
+
 href es igual a hash ya que lo que hacemos realmente no tiene que navegar en otro lugar, se puede agregar cualquier enlace externo y funcionará bien
 
 -->
