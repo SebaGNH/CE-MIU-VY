@@ -22,6 +22,7 @@ export * from './M21_Link'
 export * from './M22_Breadcrumbs'
 export * from './M23_Drawer'
 export * from './M24_SpeedDial'
+export * from './M25_NavigationBtn'
 
 
 
