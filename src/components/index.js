@@ -25,6 +25,7 @@ export * from './M24_SpeedDial'
 export * from './M25_BottomNavigation'
 export * from './M26_Avatar'
 export * from './M27_Badge'
+export * from './M28_List'
 
 
 
