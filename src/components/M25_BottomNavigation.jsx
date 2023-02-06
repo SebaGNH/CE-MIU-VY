@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BottomNavigation, BottomNavigationAction } from '@mui/material';
 import {Home as HomeIcon, Favorite as FavoriteIcon, Person as PersonIcon} from '@mui/icons-material/';
 
-export const M25_NavigationBtn = () => {
+export const M25_BottomNavigation = () => {
   const [valor, setValor] = useState(0)
   //console.log(valor)
 
