@@ -1,10 +1,10 @@
 import React from 'react'
 import { Box, List, ListItem, ListItemText, ListItemIcon, ListItemAvatar, Avatar, ListItemButton, Divider } from '@mui/material'
-import {Radio as RadioIcon} from '@mui/icons-material/';
+import { Radio as RadioIcon } from '@mui/icons-material/';
 
 export const M28_List = () => {
   return (
-    <Box sx={{ width: '400px', bgcolor: '#404040' }}>
+    <Box sx={{ width: '400px', bgcolor: '#606060' }}>
       <List>
 
         <ListItem>
