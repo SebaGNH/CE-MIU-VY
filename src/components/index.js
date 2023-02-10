@@ -28,6 +28,7 @@ export * from './M27_Badge'
 export * from './M28_List'
 export * from './M29_Chip'
 export * from './M30_Tooltip'
+export * from './M31_Table'
 
 
 
@@ -190,4 +191,75 @@ export const itemData3 = [
 
 
 
+export const tableData = [{
+  "id": 1,
+  "first_name": "Allegra",
+  "last_name": "Tonkinson",
+  "email": "atonkinson0@house.gov",
+  "gender": "Female",
+  "ip_address": "233.229.99.84"
+}, {
+  "id": 2,
+  "first_name": "Bethanne",
+  "last_name": "Bichener",
+  "email": "bbichener1@fema.gov",
+  "gender": "Female",
+  "ip_address": "13.209.114.21"
+}, {
+  "id": 3,
+  "first_name": "Heinrick",
+  "last_name": "Goodram",
+  "email": "hgoodram2@netvibes.com",
+  "gender": "Non-binary",
+  "ip_address": "96.111.98.249"
+}, {
+  "id": 4,
+  "first_name": "Barthel",
+  "last_name": "Sherer",
+  "email": "bsherer3@miibeian.gov.cn",
+  "gender": "Male",
+  "ip_address": "16.218.51.21"
+}, {
+  "id": 5,
+  "first_name": "Lorita",
+  "last_name": "Mullord",
+  "email": "lmullord4@themeforest.net",
+  "gender": "Female",
+  "ip_address": "231.12.42.176"
+}, {
+  "id": 6,
+  "first_name": "Wally",
+  "last_name": "Willoughley",
+  "email": "wwilloughley5@a8.net",
+  "gender": "Male",
+  "ip_address": "149.85.198.49"
+}, {
+  "id": 7,
+  "first_name": "Beverie",
+  "last_name": "Kirsop",
+  "email": "bkirsop6@virginia.edu",
+  "gender": "Agender",
+  "ip_address": "228.34.152.144"
+}, {
+  "id": 8,
+  "first_name": "Essa",
+  "last_name": "Laye",
+  "email": "elaye7@icq.com",
+  "gender": "Female",
+  "ip_address": "70.93.66.213"
+}, {
+  "id": 9,
+  "first_name": "Birgitta",
+  "last_name": "Rowston",
+  "email": "browston8@nasa.gov",
+  "gender": "Female",
+  "ip_address": "75.27.169.231"
+}, {
+  "id": 10,
+  "first_name": "James",
+  "last_name": "Milthorpe",
+  "email": "jmilthorpe9@theglobeandmail.com",
+  "gender": "Male",
+  "ip_address": "20.156.186.123"
+}]
 
