@@ -30,6 +30,7 @@ export * from './M29_Chip'
 export * from './M30_Tooltip'
 export * from './M31_Table'
 export * from './M32_Alert'
+export * from './M33_Snackbar'
 
 
 
