@@ -32,6 +32,7 @@ export * from './M31_Table'
 export * from './M32_Alert'
 export * from './M33_Snackbar'
 export * from './M34_Dialog'
+export * from './M35_Progress'
 
 
 
