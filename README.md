@@ -49,6 +49,13 @@ box también se usa como div
 
 href es igual a hash ya que lo que hacemos realmente no tiene que navegar en otro lugar, se puede agregar cualquier enlace externo y funcionará bien
 
+
+
+# MUI Lab
+yarn add @mui/lab
+yarn add @mui/lab
+
+
 -->
 
 
