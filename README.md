@@ -61,6 +61,12 @@ yarn add @mui/lab
 
 #Date picker
 yarn add date-fns @date-io/date-fns
+<M38_DatePickere/> falta actualizaarlo, lo paso y después veo
+React Material UI Tutorial - 40 - Date and Time Picker
+
+M39_DateRangePicker tampoco funciona ya que es diferente la versión
+
+40 tabs también desactualizado ya que lab al parecer no funciona
 -->
 
 

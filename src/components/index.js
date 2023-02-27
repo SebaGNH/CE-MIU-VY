@@ -36,6 +36,8 @@ export * from './M35_Progress'
 export * from './M36_Skeleton'
 export * from './M37_LoadingButton'
 export * from './M38_DatePickere'
+export * from './M39_DateRangePicker'
+export * from './M40_Tabs'
 
 
 
